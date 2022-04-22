@@ -18,7 +18,7 @@ to do things like turn on/off LEDs or scan keys
 # example
 LED Matrix 16*8
 
-![ht16k33](/img/ht16k33_16x8_LedMatrix(150dpi).png)
+![ht16k33](/img/ht16k33_16x8_Led_Matrix(150dpi).png)
 
 keyboard Matrix 13*3
 
