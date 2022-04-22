@@ -11,6 +11,9 @@ to do things like turn on/off LEDs or scan keys
 
 
 # Eagle lib & examples
+
+[ht16k33 libraries](/Eagle/HT16k33.lbr)
+
 ![ht16k33](/img/ht16k33_lib.jpg)
 ![ht16k33](/img/ht16k33_modul.jpg)
 
