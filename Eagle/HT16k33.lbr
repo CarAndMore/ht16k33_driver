@@ -180,43 +180,135 @@
 <text x="-0.2" y="5.7" size="1.27" layer="21">&gt;NAME</text>
 <text x="0.7" y="-0.5" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="MODUL">
+<pad name="1" x="-20.32" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-17.78" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="-15.24" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-12.7" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-10.16" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="-7.62" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="7" x="-5.08" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="8" x="-2.54" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="9" x="0" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="10" x="2.54" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="11" x="5.08" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="12" x="7.62" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="13" x="10.16" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<pad name="14" x="12.7" y="-8.89" drill="1.016" shape="long" rot="R90"/>
+<text x="-22.9362" y="11.9888" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<rectangle x1="9.906" y1="-9.144" x2="10.414" y2="-8.636" layer="51"/>
+<rectangle x1="7.366" y1="-9.144" x2="7.874" y2="-8.636" layer="51"/>
+<rectangle x1="4.826" y1="-9.144" x2="5.334" y2="-8.636" layer="51"/>
+<rectangle x1="2.286" y1="-9.144" x2="2.794" y2="-8.636" layer="51"/>
+<rectangle x1="-0.254" y1="-9.144" x2="0.254" y2="-8.636" layer="51"/>
+<rectangle x1="-2.794" y1="-9.144" x2="-2.286" y2="-8.636" layer="51"/>
+<rectangle x1="-5.334" y1="-9.144" x2="-4.826" y2="-8.636" layer="51"/>
+<rectangle x1="-7.874" y1="-9.144" x2="-7.366" y2="-8.636" layer="51"/>
+<rectangle x1="-10.414" y1="-9.144" x2="-9.906" y2="-8.636" layer="51"/>
+<rectangle x1="-12.954" y1="-9.144" x2="-12.446" y2="-8.636" layer="51"/>
+<rectangle x1="-15.494" y1="-9.144" x2="-14.986" y2="-8.636" layer="51"/>
+<rectangle x1="-18.034" y1="-9.144" x2="-17.526" y2="-8.636" layer="51"/>
+<rectangle x1="-20.574" y1="-9.144" x2="-20.066" y2="-8.636" layer="51"/>
+<rectangle x1="12.446" y1="-9.144" x2="12.954" y2="-8.636" layer="51"/>
+<pad name="15" x="12.7" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="16" x="10.16" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="17" x="7.62" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="18" x="5.08" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="19" x="2.54" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="20" x="0" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="21" x="-2.54" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="22" x="-5.08" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="23" x="-7.62" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="24" x="-10.16" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="25" x="-12.7" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="26" x="-15.24" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="27" x="-17.78" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<pad name="28" x="-20.32" y="8.89" drill="1.016" shape="long" rot="R270"/>
+<text x="-19.05" y="-0.635" size="1.4224" layer="27">&gt;VALUE</text>
+<rectangle x1="-18.034" y1="8.636" x2="-17.526" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-15.494" y1="8.636" x2="-14.986" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-12.954" y1="8.636" x2="-12.446" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-10.414" y1="8.636" x2="-9.906" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-7.874" y1="8.636" x2="-7.366" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-5.334" y1="8.636" x2="-4.826" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-2.794" y1="8.636" x2="-2.286" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-0.254" y1="8.636" x2="0.254" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="2.286" y1="8.636" x2="2.794" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="4.826" y1="8.636" x2="5.334" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="7.366" y1="8.636" x2="7.874" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="9.906" y1="8.636" x2="10.414" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="12.446" y1="8.636" x2="12.954" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-20.574" y1="8.636" x2="-20.066" y2="9.144" layer="51" rot="R180"/>
+<wire x1="-22.86" y1="11.43" x2="15.24" y2="11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="11.43" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-11.43" x2="-22.86" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-11.43" x2="-22.86" y2="11.43" width="0.127" layer="21"/>
+<text x="-20.32" y="-6.35" size="1.27" layer="21" rot="R90">GND</text>
+<text x="-21.59" y="6.35" size="1.27" layer="21" rot="R270">VCC</text>
+<text x="-19.05" y="6.35" size="1.27" layer="21" rot="R270">SDA</text>
+<text x="-16.51" y="6.35" size="1.27" layer="21" rot="R270">SCL</text>
+<text x="-13.97" y="6.35" size="1.27" layer="21" rot="R270">R0</text>
+<text x="11.43" y="6.35" size="1.27" layer="21" rot="R270">R10</text>
+<text x="12.7" y="-6.35" size="1.27" layer="21" rot="R90">R11</text>
+<text x="-17.78" y="-6.35" size="1.27" layer="21" rot="R90">C0</text>
+<text x="-15.24" y="-6.35" size="1.27" layer="21" rot="R90">C1</text>
+<text x="0" y="-6.35" size="1.27" layer="21" rot="R90">C7</text>
+<text x="-11.43" y="6.35" size="1.27" layer="21" rot="R270">R1</text>
+<text x="-8.89" y="6.35" size="1.27" layer="21" rot="R270">R2</text>
+<text x="2.54" y="-6.35" size="1.27" layer="21" rot="R90">R15</text>
+<text x="-7.62" y="-6.35" size="1.27" layer="21" rot="R90">C4</text>
+<text x="-5.08" y="-6.35" size="1.27" layer="21" rot="R90">C5</text>
+<text x="-2.54" y="-6.35" size="1.27" layer="21" rot="R90">C6</text>
+<text x="-10.16" y="-6.35" size="1.27" layer="21" rot="R90">C3</text>
+<text x="-12.7" y="-6.35" size="1.27" layer="21" rot="R90">C2</text>
+<text x="5.08" y="-6.35" size="1.27" layer="21" rot="R90">R14</text>
+<text x="7.62" y="-6.35" size="1.27" layer="21" rot="R90">R13</text>
+<text x="10.16" y="-6.35" size="1.27" layer="21" rot="R90">R14</text>
+<text x="8.89" y="6.35" size="1.27" layer="21" rot="R270">R9</text>
+<text x="6.35" y="6.35" size="1.27" layer="21" rot="R270">R8</text>
+<text x="3.81" y="6.35" size="1.27" layer="21" rot="R270">R7</text>
+<text x="1.27" y="6.35" size="1.27" layer="21" rot="R270">R6</text>
+<text x="-1.27" y="6.35" size="1.27" layer="21" rot="R270">R5</text>
+<text x="-3.81" y="6.35" size="1.27" layer="21" rot="R270">R4</text>
+<text x="-6.35" y="6.35" size="1.27" layer="21" rot="R270">R3</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HT16K33">
 <description>&lt;h1&gt;HT16K33&lt;/h1&gt;
 RAM Mapping 16*8 LED Controller Driver with keyscan</description>
-<pin name="ROW0/A2" x="0" y="25.4" length="middle" rot="R180"/>
-<pin name="ROW1/A1" x="0" y="22.86" length="middle" rot="R180"/>
-<pin name="ROW2/A0" x="0" y="20.32" length="middle" rot="R180"/>
-<pin name="ROW3/K1" x="0" y="17.78" length="middle" rot="R180"/>
-<pin name="ROW4/K2" x="0" y="15.24" length="middle" rot="R180"/>
-<pin name="ROW5/K3" x="0" y="12.7" length="middle" rot="R180"/>
-<pin name="ROW6/K4" x="0" y="10.16" length="middle" rot="R180"/>
-<pin name="ROW7/K5" x="0" y="7.62" length="middle" rot="R180"/>
-<pin name="ROW8/K6" x="0" y="5.08" length="middle" rot="R180"/>
-<pin name="ROW9/K7" x="0" y="2.54" length="middle" rot="R180"/>
-<pin name="ROW10/K8" x="0" y="0" length="middle" rot="R180"/>
-<pin name="ROW11/K9" x="0" y="-2.54" length="middle" rot="R180"/>
-<pin name="ROW12/K10" x="0" y="-5.08" length="middle" rot="R180"/>
-<pin name="ROW13/K11" x="0" y="-7.62" length="middle" rot="R180"/>
-<pin name="ROW14/K12" x="0" y="-10.16" length="middle" rot="R180"/>
-<pin name="ROW15/K13/INT" x="0" y="-12.7" length="middle" rot="R180"/>
-<pin name="COM0/AD" x="-40.64" y="10.16" length="middle" direction="out"/>
-<pin name="COM1/KS0" x="-40.64" y="7.62" length="middle" direction="out"/>
-<pin name="COM2/KS1" x="-40.64" y="5.08" length="middle" direction="out"/>
-<pin name="COM3/KS2" x="-40.64" y="2.54" length="middle" direction="out"/>
-<pin name="COM4" x="-40.64" y="0" length="middle" direction="out"/>
-<pin name="COM5" x="-40.64" y="-2.54" length="middle" direction="out"/>
-<pin name="COM6" x="-40.64" y="-5.08" length="middle" direction="out"/>
-<pin name="COM7" x="-40.64" y="-7.62" length="middle" direction="out"/>
-<pin name="SCL" x="-40.64" y="17.78" length="middle" direction="in"/>
-<pin name="SDA" x="-40.64" y="20.32" length="middle"/>
-<pin name="VCC" x="-40.64" y="25.4" length="middle" direction="pwr"/>
-<pin name="GND" x="-40.64" y="-12.7" length="middle" direction="pwr"/>
-<wire x1="-35.56" y1="27.94" x2="-5.08" y2="27.94" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="27.94" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-15.24" x2="-35.56" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-35.56" y1="-15.24" x2="-35.56" y2="27.94" width="0.254" layer="94"/>
+<pin name="ROW0/A2" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="ROW1/A1" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="ROW2/A0" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="ROW3/K1" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="ROW4/K2" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="ROW5/K3" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="ROW6/K4" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="ROW7/K5" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="ROW8/K6" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="ROW9/K7" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="ROW10/K8" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="ROW11/K9" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="ROW12/K10" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="ROW13/K11" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="ROW14/K12" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="ROW15/K13/INT" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="COM0/AD" x="-20.32" y="5.08" length="middle" direction="out"/>
+<pin name="COM1/KS0" x="-20.32" y="2.54" length="middle" direction="out"/>
+<pin name="COM2/KS1" x="-20.32" y="0" length="middle" direction="out"/>
+<pin name="COM3/KS2" x="-20.32" y="-2.54" length="middle" direction="out"/>
+<pin name="COM4" x="-20.32" y="-5.08" length="middle" direction="out"/>
+<pin name="COM5" x="-20.32" y="-7.62" length="middle" direction="out"/>
+<pin name="COM6" x="-20.32" y="-10.16" length="middle" direction="out"/>
+<pin name="COM7" x="-20.32" y="-12.7" length="middle" direction="out"/>
+<pin name="SCL" x="-20.32" y="12.7" length="middle" direction="in"/>
+<pin name="SDA" x="-20.32" y="15.24" length="middle"/>
+<pin name="VCC" x="-20.32" y="20.32" length="middle" direction="pwr"/>
+<pin name="GND" x="-20.32" y="-17.78" length="middle" direction="pwr"/>
+<wire x1="-15.24" y1="22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -226,6 +318,48 @@ RAM Mapping 16*8 LED Controller Driver with keyscan</description>
 </gates>
 <devices>
 <device name="" package="SOP28">
+<connects>
+<connect gate="G$1" pin="COM0/AD" pad="2"/>
+<connect gate="G$1" pin="COM1/KS0" pad="3"/>
+<connect gate="G$1" pin="COM2/KS1" pad="4"/>
+<connect gate="G$1" pin="COM3/KS2" pad="5"/>
+<connect gate="G$1" pin="COM4" pad="6"/>
+<connect gate="G$1" pin="COM5" pad="7"/>
+<connect gate="G$1" pin="COM6" pad="8"/>
+<connect gate="G$1" pin="COM7" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="ROW0/A2" pad="25"/>
+<connect gate="G$1" pin="ROW1/A1" pad="24"/>
+<connect gate="G$1" pin="ROW10/K8" pad="15"/>
+<connect gate="G$1" pin="ROW11/K9" pad="14"/>
+<connect gate="G$1" pin="ROW12/K10" pad="13"/>
+<connect gate="G$1" pin="ROW13/K11" pad="12"/>
+<connect gate="G$1" pin="ROW14/K12" pad="11"/>
+<connect gate="G$1" pin="ROW15/K13/INT" pad="10"/>
+<connect gate="G$1" pin="ROW2/A0" pad="23"/>
+<connect gate="G$1" pin="ROW3/K1" pad="22"/>
+<connect gate="G$1" pin="ROW4/K2" pad="21"/>
+<connect gate="G$1" pin="ROW5/K3" pad="20"/>
+<connect gate="G$1" pin="ROW6/K4" pad="19"/>
+<connect gate="G$1" pin="ROW7/K5" pad="18"/>
+<connect gate="G$1" pin="ROW8/K6" pad="17"/>
+<connect gate="G$1" pin="ROW9/K7" pad="16"/>
+<connect gate="G$1" pin="SCL" pad="26"/>
+<connect gate="G$1" pin="SDA" pad="27"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HT16K33_MODUL">
+<gates>
+<gate name="G$1" symbol="HT16K33" x="17.78" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="MODUL">
 <connects>
 <connect gate="G$1" pin="COM0/AD" pad="2"/>
 <connect gate="G$1" pin="COM1/KS0" pad="3"/>
