@@ -1,9 +1,8 @@
 ## 16x8 LED Matrix Demo
 nacheinander werden die LEDs 1-128 ein geschaltet, danach wieder aus. usw....
-
 ```cpp
 #define ht16k33_addr  0x70
-#define pause  0x70
+#define pause  100
 
 #include "cam_ht16k33.h"
 
