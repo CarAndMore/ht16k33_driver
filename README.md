@@ -26,7 +26,8 @@ to do things like turn on/off LEDs or scan keys
 
 ![ht16k33](/img/ht16k33_keyboard(150dpi).png)
 
-# C64 Zeichensatztabelle
+# 8x8 Zeichensätze
+## C64 Zeichensatztabelle
 By mikrocontrolle [jjflash](https://www.mikrocontroller.net/topic/414276)
 
 ![ht16k33](https://www.mikrocontroller.net/attachment/313683/font8x8b.bmp)
