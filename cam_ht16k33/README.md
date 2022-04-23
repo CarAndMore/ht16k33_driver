@@ -1,3 +1,5 @@
+# Matrix LED 
+
 ## 16x8 LED Matrix Demo
 nacheinander werden die LEDs 1-128 ein geschaltet, danach wieder aus. usw....
 ```cpp
@@ -24,6 +26,70 @@ void loop() {
   }
 }
 ```
+
+## 8 bit LED Counter
+Binärzähler
+```cpp
+#define    ht16k33_addr 0x70
+#define    pause        50
+
+#include "cam_ht16k33.h"
+
+CAM_HT16K33 ht16k33_1;
+
+uint8_t COUNTER_D;
+
+void setup() {
+  ht16k33_1.begin(ht16k33_addr); //    -   -   -   -   -   -   ht16k33 bereit machen.
+  ht16k33_1.setBrightness(5); //   -   -   -   -   -   -   -   Helligkeit der LEDs auf 5/16 stellen
+}
+
+void loop() {  
+  ht16k33_1.setDisplayRaw(0,   (COUNTER_D & 0xff));  //-   -   überträgt die 8 Bit an den Chip
+  
+  // invertierte Ausgabe
+  ht16k33_1.setDisplayRaw(2,   ~(COUNTER_D & 0xff)); //-   -   überträgt die 8 Bit an den Chip
+
+  ht16k33_1.sendLed(); //   -   -   -   -   -   -   -   -   -   daten vom Chip an die LEDs übertragen.
+  
+  delay(pause);
+  COUNTER_D++;
+}
+```
+
+Binärzähler
+## 16 bit LED Counter
+```cpp
+#define    ht16k33_addr 0x70
+#define    pause        50
+
+#include "cam_ht16k33.h"
+
+CAM_HT16K33 ht16k33_1;
+
+uint16_t COUNTER_D;
+
+void setup() {
+  ht16k33_1.begin(ht16k33_addr); //    -   -   -   -   -   -   ht16k33 bereit machen.
+  ht16k33_1.setBrightness(5); //   -   -   -   -   -   -   -   Helligkeit der LEDs auf 5/16 stellen
+}
+
+void loop() {  
+  ht16k33_1.setDisplayRaw(0,   (COUNTER_D & 0xff)); // -   -   überträgt die 1. 8 Bit (LOW BYTE) an den Chip
+  ht16k33_1.setDisplayRaw(1,  ((COUNTER_D & 0xff00) >> 8)); // überträgt die 2. 8 Bit (HIGH BYTE) an den Chip
+  
+  // invertierte Ausgabe
+  ht16k33_1.setDisplayRaw(2,   ~(COUNTER_D & 0xff)); // -   -   überträgt die 1. 8 Bit (LOW BYTE) an den Chip
+  ht16k33_1.setDisplayRaw(3,  ~((COUNTER_D & 0xff00) >> 8)); // überträgt die 2. 8 Bit (HIGH BYTE) an den Chip
+
+  ht16k33_1.sendLed(); //   -   -   -   -   -   -   -   -   -   daten vom Chip an die LEDs übertragen.
+  
+  delay(pause);
+  COUNTER_D++;
+}
+```
+
+# Keyboard
 
 ## 13x3 Key Matrix Demo
 wenn eine Taste gedrückr wurde, wird deren Werte (1 - 39) / (-1 - -39) auf dem Serial Monitor ausgegeben.
@@ -66,6 +132,12 @@ void loop() {
 ## auswerten Demo
 
 ```cpp
+#define ht16k33_addr 0x70
+
+#include "cam_ht16k33.h"
+
+CAM_HT16K33 ht16k33_1;
+
 void setup() {
   ht16k33_1.begin(ht16k33_addr);
 }
@@ -115,34 +187,3 @@ void loop() {
 }
 ```
 
-```cpp
-#define    ht16k33_addr 0x74
-// #define mySerial     Serial
-// #define myBaud       9600
-#define    pause        20
-
-#include "cam_ht16k33.h"
-
-CAM_HT16K33 ht16k33_1;
-
-uint16_t COUNTER_D;
-
-void setup() {
-  ht16k33_1.begin(ht16k33_addr);
-  ht16k33_1.setBrightness(5);
-}
-
-void loop() {  
-  ht16k33_1.setDisplayRaw(0,   (COUNTER_D & 0xff)); // LOW_BYTE
-  ht16k33_1.setDisplayRaw(1,  ((COUNTER_D & 0xff00) >> 8)); // HIGH_BYTE
-  
-  // invertiert
-  ht16k33_1.setDisplayRaw(2,   ~(COUNTER_D & 0xff)); // LOW_BYTE
-  ht16k33_1.setDisplayRaw(3,  ~((COUNTER_D & 0xff00) >> 8)); // HIGH_BYTE
-
-  ht16k33_1.sendLed(); // daten an die LEDs übertragen  
-  
-  delay(pause);
-  COUNTER_D++;
-}
-```
