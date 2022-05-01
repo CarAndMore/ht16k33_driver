@@ -12,13 +12,6 @@ to do things like turn on/off LEDs or scan keys
 
 ![ht16k33](/img/ht16k33_28-SOP.jpg)
 
-# Eagle lib & examples
-
-[ht16k33 libraries](/Eagle/HT16k33.lbr)
-
-![ht16k33](/img/ht16k33_lib.jpg)
-![ht16k33](/img/ht16k33_modul.jpg)
-
 <table>
   <tr>
     <th>A2</th><th>A1</th><th>A0</th><th>decimal</th><th>hexadecimal</th>    
@@ -48,6 +41,14 @@ to do things like turn on/off LEDs or scan keys
     <td>H</td><td>H</td><td>H</td> <td>119</td> <td>77</td>    
   </tr>
 </table> 
+
+# Eagle lib & examples
+
+[ht16k33 libraries](/Eagle/HT16k33.lbr)
+
+![ht16k33](/img/ht16k33_lib.jpg)
+![ht16k33](/img/ht16k33_modul.jpg)
+
 
 ## LED Matrix 16*8
 
